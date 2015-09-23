@@ -15,6 +15,7 @@ import sun.misc.BASE64Encoder;
  * @see http://blog.axxg.de
  *
  */
+@SuppressWarnings("restriction")
 public class EasyCrypt {
     
    private Key key = null;

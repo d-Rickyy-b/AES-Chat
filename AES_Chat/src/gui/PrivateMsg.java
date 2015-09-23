@@ -27,7 +27,8 @@ class PrivateMsg
   private int toID;
   private int myID;
   private String myNick;
-  private final String requestPrivate = "requestPrivate_";
+  @SuppressWarnings("unused")
+private final String requestPrivate = "requestPrivate_";
   
   public PrivateMsg(int toID, String title, String myNick, int myID, Dimension screenSize, ServerClient serverClient, Point point)
   {
