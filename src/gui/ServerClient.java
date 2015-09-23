@@ -190,11 +190,11 @@ public class ServerClient extends JFrame {
 		btnCreate = new JButton("Start server");
 		btnCreate.setToolTipText("Start server");
 		toolBar.add(btnCreate);
-		toolBar.addSeparator();
-
-		btnShareKey = new JButton("shareKey");
-		btnShareKey.setToolTipText("ShareKey");
-		toolBar.add(btnShareKey);
+		
+		//toolBar.addSeparator();
+		//btnShareKey = new JButton("shareKey");
+		//btnShareKey.setToolTipText("ShareKey");
+		//toolBar.add(btnShareKey);
 
 		getContentPane().add(toolBar, "North");
 
