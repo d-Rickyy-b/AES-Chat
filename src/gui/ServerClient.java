@@ -58,7 +58,7 @@ import encrypter_decrypter.EasyCrypt;
 public class ServerClient extends JFrame {
 	private static final long serialVersionUID = 1L;
 	private Dimension screenSize;
-	private JButton btnCreate, btnJoin, btnShareKey;
+	private JButton btnCreate, btnJoin; //btnShareKey;
 	private JTextField txtIP, txtPort, txtNick, txtMsg;
 	private JTextArea txtArea;
 	private JScrollPane scrollArea, scrollList;
@@ -499,11 +499,11 @@ public class ServerClient extends JFrame {
 			}
 		});
 		// ################################################################
-		btnShareKey.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-			}
-		});
+//		btnShareKey.addActionListener(new ActionListener() {
+//			@Override
+//			public void actionPerformed(ActionEvent e) {
+//			}
+//		});
 		// #################################################################
 		// Enter button listener -> Nachricht senden
 		txtMsg.addKeyListener(new KeyAdapter() {
